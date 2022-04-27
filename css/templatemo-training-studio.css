@@ -1,0 +1,188 @@
+
+@import url("https://fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i");
+
+html,
+body {
+
+  font-family: 'Poppins', sans-serif;
+}
+
+
+.section-heading {
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 60px;
+}
+
+.section-heading h2 {
+  font-size: 28px;
+  font-weight: 800;
+  color: #0a3fa3;
+  text-transform: uppercase;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.section-heading h2 em {
+  font-style: normal;
+  color: #0a3fa3;
+}
+
+
+.section-heading2 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.section-heading2 h2 {
+  font-size: 28px;
+  font-weight: 800;
+  color: #0a3fa3;
+  text-transform: uppercase;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.section-heading2 h2 em {
+  font-style: normal;
+  color: #ec9000;
+}
+.section-heading3{
+  text-align: center;
+  background-image: url(../img/bg-btn.png); 
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center center;
+  margin-bottom: -5px;
+}
+.section-heading4{
+  text-align: center;
+  background-image: url(../img/bg-btn2.png); 
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center center;
+  margin-top: -4px;
+}
+
+
+/*
+---------------------------------------------
+features
+---------------------------------------------
+*/
+
+#features {
+  margin-bottom: 0px;
+}
+
+.feature-item {
+  display: inline-block;
+  margin-bottom: 60px;
+}
+
+.feature-item .left-icon img {
+  float: left;
+  margin-right: 30px;
+  width: 130px;
+}
+
+.feature-item .right-content {
+  display: inline;
+}
+
+.feature-item .right-content h4 {
+  margin-top: 0px;
+  margin-bottom:  7px;
+  letter-spacing: 0.25px;
+  color: #232d39;
+  font-size: 19px;
+  font-weight: 600;
+  text-transform: capitalize;
+}
+
+.feature-item .right-content a.text-button {
+  margin-top: 7px;
+  display: inline-block;
+  font-size: 13px;
+  text-transform: uppercase;
+  color: #0a3fa3;
+  font-weight: 600;
+}
+.feature-item .right-content a.text-button:hover{
+  color: #0a3fa3;
+}
+
+/*
+---------------------------------------------
+subscribe
+---------------------------------------------
+*/
+
+#call-to-action {
+  padding: 10px 0px;
+  background-color: #0a3fa3;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+}
+
+.cta-content h2 {
+  font-size: 36px;
+  text-transform: uppercase;
+  font-weight: 800;
+  color: #fff;
+  letter-spacing: 1px;
+}
+
+.cta-content h2 em {
+  font-style: normal;
+  color: #ed563b;
+}
+
+.cta-content p {
+  font-size: 16px;
+  color: #fff;
+  margin: 15px 0px 25px 0px;
+}
+
+
+
+
+@media (max-width: 992px) {
+
+  .main-banner .caption h2 {
+    font-size: 64px;
+  }
+  #features {
+    margin-bottom: 110px;
+  }
+  #features .feature-item {
+    margin-bottom: 30px;
+  }
+  #our-classes .tabs-content {
+    margin-left: 0px;
+    margin-top: 30px;
+  }
+  .trainer-item {
+    margin-bottom: 30px;
+  }
+  #contact-us #map {
+    margin-bottom: -7px;
+  }
+  #contact-us .contact-form {
+    padding: 30px;
+  }
+  #contact-us .contact-form #contact {
+    padding: 30px;
+  }
+
+}
+
+@media (max-width: 450px) {
+  .feature-item .right-content a.text-button {
+    margin-left: 130px;
+  }
+}
