@@ -94,7 +94,7 @@
   
   .navbar__logo{
    height: 37px;
-   margin-top: 4px;
+   margin-top: 8px;
    margin-right: 430px;
    float: left;
    text-align: left;
@@ -288,7 +288,7 @@
   }
 
   .bg{
-    background-image:url('../img/banner-teste2.png');
+    background-image:url('../img/banner-teste.png');
     background-size:cover;
     background-repeat: no-repeat;
     background-attachment:scroll;
@@ -297,6 +297,17 @@
     height:600px;
   
   }
+  @media screen and (max-width: 1920px) {
+    .bg{
+      background-image:url('../img/banner-teste2.png');
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-attachment: scroll;
+      width:100%;
+      height:750px;
+      background-position: center center;
+      }
+    }
   
   @media screen and (max-width: 1400px) {
     .bg{
@@ -573,6 +584,7 @@ body {
 }
 
 .footer__logo {
+   margin-top: 5px;
    height: 40px;
    float: left;
    text-align: left;
